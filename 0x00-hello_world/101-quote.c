@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <unistd.h>
 /**
- * main - Entry
+ * main - Prints out the last part of a quote in the standard error.
  * Return: 1
  */
 int main(void)
