@@ -20,6 +20,6 @@ int main(void)
 	}
 	else if (n == 0)
 		printf("%d is zero\n", n);
-	exit(Success_EXIT);
+	return (0);
 }
 
