@@ -1,7 +1,8 @@
- #include <stdlib.h>
+#include <stdlib.h>
 #include <time.h>
+#include <stdlib.h>
 /**
- * main - print if the number is negative, zero or positive
+ * main - Entry point
  * Return: Always 0 Success)
  */
 int main(void)
