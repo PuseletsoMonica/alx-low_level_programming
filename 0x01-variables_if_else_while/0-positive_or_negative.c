@@ -1,8 +1,8 @@
-#include <stdlib.h>
+#include <stdio.h>
 #include <time.h>
 #include <stdlib.h>
 /**
- * main - determines if number is positive.
+ * main - Entry point
  * Return: Always 0
  */
 int main(void)
