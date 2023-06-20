@@ -1,8 +1,8 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * main - check the code
- * Return: Always 0
+ * main - Entry point
+ * Return: Always 0 (Success)
  */
 int main(void)
 
@@ -16,10 +16,4 @@ int main(void)
 	putchar('\n');
 	return (0);
 }
-
-
-
-
-
-
 
