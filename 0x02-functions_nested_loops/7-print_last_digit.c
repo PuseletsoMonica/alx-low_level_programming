@@ -1,19 +1,15 @@
-#include "main.h"
+#include <stdio.h>
 /**
- * print_last_digit-prints the last digit of an interger.
- * @a:number to compute last digit.
- * Return:last digit.
+ * main-program entry point.
+ * Return:0 if no errors, non zero if errors
  */
-
-
-
-int print_last_digit(int a)
+int main(void)
 {
-	int last_digit;
+	char i;
 
-	last_digit = a %  10;
-	if (last_digit < 0)
-	{
-		last_digit = last_digit * -1;
-	}
+	for (i = 'z'; i >= 'a'; i--)
+		putchar(i);
+	putchar('\n');
+	return (0);
+}
 
