@@ -1,10 +1,9 @@
 #include "main.h"
-#include <stdio.h>
 /**
  * main - check the code
  * Return: 1 on Success
  */
-int void print_alphabet(void)
+void print_alphabet(void)
 {
 	char i;
 
