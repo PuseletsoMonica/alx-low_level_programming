@@ -2,15 +2,15 @@
 #include <stdio.h>
 /**
  * main - check the code
- * Return: Always 0 (Success)
+ * Return: 1 on Success
  */
-void print_alphabet(void)
+int void print_alphabet(void)
 {
-	char i;
+	char x;
 
-	for (i = 'a'; i <= 'z'; i++)
+	for (x = 'a'; i <= 'z'; x++)
 	{
-	_putchar(i);
+	_putchar(x);
 	}
 	_putchar('\n');
 
