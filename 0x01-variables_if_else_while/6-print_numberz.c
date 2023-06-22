@@ -4,8 +4,8 @@
  * Return: Always 0 (Success)
  */
 int main(void)
-	{int i;
-		for (i = 0; < 10; i++)
+	{int num;
+		for (num = 0; < 10; num++)
 		putchar(("i % 10) + "0");
 
 		putchar ("\n");
