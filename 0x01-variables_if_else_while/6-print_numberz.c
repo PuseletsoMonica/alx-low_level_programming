@@ -4,10 +4,12 @@
  * Return: Always 0 (Success)
  */
 int main(void)
-	{int num;
-		for (num = 0; num < 10; num++)
-		putchar((num % 10) + "0");
+{
+	int i;
 
-		putchar ("\n");
-		return (0);
-	}
+	for (i = '0'; i <= '9'; i++)
+		putchar(i);
+	putchar('\n');
+	return (0);
+}
+
