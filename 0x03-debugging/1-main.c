@@ -9,16 +9,16 @@ void positive_or_negative(int i);
 {
         int i;
 
-        printf("Infinite loop incoming :(\n");  \*there is no opening bracket  before the backslash. */
+        printf("Infinite loop incoming :(\n");  
 
-        i = 0; \* the declaration was supposed to come befoe the print function*/
+        i = 0; 
 
-        while (i < 10)  \* This comment is not clear for the execution of the code*/
-        {
-                putchar(i);
-        }
+       /* while (i < 10)*/
+       /*{*/
+               /* putchar(i);*/
+       */}*/
 
-        printf("Infinite loop avoided! \\o/\n");  \* \\ the string has two backslashes instead of on therefore the rest of the code is ignored.*/
+        printf("Infinite loop avoided! \\o/\n");
 
         return (0);
 }
