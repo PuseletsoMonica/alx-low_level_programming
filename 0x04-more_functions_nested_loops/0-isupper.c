@@ -2,7 +2,8 @@
 #include <stdio.h>
 
 /**
- * isupper - returns characters in uppercase
+ * _isupper - checks if parameter is an uppercase character.
+ * @c: input character.
  *
  * Return: 1 if c is uppercase, return 0 if c is lowercase
  */
