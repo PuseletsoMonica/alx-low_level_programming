@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * main -  function that takes a pointer to an int as parameter and updates the value it points to 98
+ * main -  update the value it points to 98
  *
  * Return: Always 0.
  */
